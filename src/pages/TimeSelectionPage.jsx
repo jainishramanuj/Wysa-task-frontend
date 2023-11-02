@@ -24,11 +24,9 @@ export default function TimeSelectionPage() {
 
     const handleSubmitButton = () => {
         const dif = Math.abs(dayjs(sleepTime).diff(dayjs(wakeupTime), 'hour', true));
-        console.log(dif);
         let efficiency = (dif * 100 / 9);
         efficiency >= 100 ? efficiency = 98.99 : efficiency = efficiency;
         data.sleepScore = efficiency.toFixed(2);
-        console.log(data);
         navigate("/sleep-score", { state: data });
     }
 
