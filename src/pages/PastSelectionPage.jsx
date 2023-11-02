@@ -23,7 +23,6 @@ export default function PastSelectionPage() {
 
     const handleClick = (e) => {
         data.past = e.target.innerText
-        console.log(data);
         navigate("/time-selection", { state: data });
     }
 
