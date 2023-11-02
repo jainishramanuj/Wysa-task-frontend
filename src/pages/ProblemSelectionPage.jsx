@@ -23,7 +23,6 @@ export default function ProblemSelectionPage() {
 
     const handleClick = (e) =>{
         data.problem = e.target.innerText
-        console.log(data);
         navigate('/past-selection', { state: data });
     }
 
