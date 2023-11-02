@@ -1,0 +1,30 @@
+.heading{
+
+    margin: 0px;
+    font-family: 'Paytone One', sans-serif;
+    font-size: 60px;
+    color: #04364A;
+}
+
+.heading-2{
+    font-family: 'Handlee', cursive;
+    font-size: 20px;
+    color: #04364A;
+}
+
+.button{
+    padding: 12px 15px 10px;
+    background-color: #04364A;
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 16px;
+    color: white;
+    border: 0px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.img1{
+    margin: 20px 0px 0px;
+    width: 30vw;
+    height: 45vh;
+}

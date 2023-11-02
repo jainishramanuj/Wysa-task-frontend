@@ -1,0 +1,29 @@
+.footer{
+    margin: 30px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    height: 30vh;
+    width: 100%;
+    background-color: #04364A;
+    color: white;
+}
+
+.footer-content{
+    color: white;
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.footer-name{
+    font-size: 14px;
+}
+.footer-name-link{
+    color: white;
+    text-decoration: none;
+}
+.footer-copyright{
+    font-size: 12px;
+    color:rgb(132, 132, 132);
+}

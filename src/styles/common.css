@@ -1,0 +1,114 @@
+.list-items{
+    width: 150%;
+    margin: 10px;
+    padding: 18px 30px 16px;
+    background-color: #ffffff;
+    color: #04364A;
+    font-size: 18px;
+    border: 1px solid #04364A;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: bold;
+}
+
+.list-items:hover{
+    background-color: #9afff5;
+}
+
+.heading{
+    padding: 20px 20% 0px;
+    font-family: 'Paytone One', sans-serif;
+    font-size: 40px;
+    color: #04364A;
+    text-align: center;
+    font-weight: 500;
+}
+
+.heading-2{
+    font-family: 'Handlee', cursive;
+    font-weight: bold;
+    font-size: 20px;
+    color: #04364A;
+}
+
+.heading-3{
+    margin: 10px 15%;
+    font-family: 'Handlee', cursive;
+    text-align: center;
+    font-size: 20px;
+    color: #04364A;
+}
+
+.bold-part{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.time-grid{
+    margin: 0 20% !important;
+}
+
+.logout-button{
+    padding: 10px 20px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: #04364A;
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+.button{
+    margin: 20px;
+    padding: 12px 30px 10px;
+    background-color: #04364A;
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 16px;
+    border: 0px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.button-2{
+    margin: 20px;
+    padding: 12px 30px 10px;
+    background-color: white;
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 16px;
+    border: 2px solid #04364A;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.login-heading {
+    padding: 20px 0px;
+    font-family: 'Paytone One', sans-serif;
+    font-size: 40px;
+    color: #04364A;
+    text-align: center;
+    font-weight: 500;
+}
+
+.input-area{
+    margin: 10px 0px 20px;
+    width: 30%;
+    font-size: 20px !important;
+}
+
+.error {
+    margin: 10px;
+    color: red;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+.link { 
+    color: white !important;
+    text-decoration: none;
+}
+
+.link-2 {
+    font-weight: bold;
+    color: #04364A !important;
+    text-decoration: none;
+}
